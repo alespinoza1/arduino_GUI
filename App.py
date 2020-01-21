@@ -68,8 +68,6 @@ class Window(Frame):
             self.y1_vals.append(buffer[0])
             self.y2_vals.append(buffer[1])
         else:
-            self.y1_vals.pop()
-            self.y2_vals.pop()
             self.y1_vals.appendleft(buffer[0])
             self.y2_vals.appendleft(buffer[1])
 
